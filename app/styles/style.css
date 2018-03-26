@@ -1,0 +1,30 @@
+/*Bootstrap overide*/
+html,body {
+    background-color: #eee;
+    height:100%;
+}
+.fill{
+	flex:1;
+}
+.auto-scroll{
+	overflow: auto;
+}
+
+.product-item{
+	padding:5px 0 5px 30px !important;
+}
+.shop-header{
+	margin-bottom: 85px;
+}
+
+.img-height{
+	height: 100px;	
+}
+
+.product-dimension{
+	margin-right:20px;width:200px;
+}
+
+.btn-continue-shopping{
+	margin-left:75% !important;
+}

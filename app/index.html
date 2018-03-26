@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="Ecart">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Ecart</title>
+    <script>
+    document.write('<base href="' + document.location + '" />');
+    </script>
+    <!-- build:css style.css -->
+    <link rel="stylesheet" href="dependency/vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="dependency/css/scrolling-nav.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- endbuild -->
+</head>
+
+<body>
+  <div class="container-fluid d-flex h-100 flex-column" ui-view=""></div>
+    <!-- build:js js/lib.js -->
+    
+    <script src="./dependency/vendor/jquery/jquery.min.js"></script>
+    <script src="./dependency/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="./dependency/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./dependency/js/scrolling-nav.js"></script>
+    <script src="./dependency/underscore/underscore.min.js"></script>
+    <script src="./bower_components/angular/angular.min.js"></script>
+    <script src="./bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <!-- <script src="./bower_components/lodash/dist/lodash.min.js"></script> -->
+    <!-- endbuild -->
+    <!-- build:js1 js/app.js -->
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/cartView/cartView.controller.js"></script>
+    <script src="./scripts/listView/listView.controller.js"></script>
+    <script src="./scripts/common/services/data.service.js"></script>
+    <script src="./scripts/directives/productItem.directive.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>

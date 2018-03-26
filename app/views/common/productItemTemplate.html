@@ -1,0 +1,6 @@
+<div class="card-body product-item">
+    <img src="{{item.imgPath}}" class="img-responsive img-thumbnail img-height" alt="{{item.name}}">
+    <h6 class="card-title">{{item.name}}</h6>
+    <p class="card-text">Price : ${{item.price}}</p>
+    <button type="button" ng-disabled="item.selected" class="btn btn-primary" ng-click="addToCart(item)">Add to cart</button>
+</div>
